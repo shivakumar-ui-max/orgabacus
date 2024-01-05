@@ -10,7 +10,7 @@ const Navbar = () => {
       });
    };
    return (
-      <nav className=" container mx-auto flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  p-2 fixed top-0 left-0">
+      <nav className=" container mx-auto flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  p-2 fixed top-0 le">
          <div className="logo flex items-center space-x-3">
             <img
                src={logo}
