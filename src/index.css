@@ -13,4 +13,16 @@
          rgba(29, 35, 133, 1) 90%
       );
    }
+   .gradient {
+      background: linear-gradient(
+         90deg,
+         rgba(107, 81, 177, 1) 10%,
+         rgba(29, 35, 133, 1) 90%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+   .black {
+      background-color: rgba(0, 0, 0, 0.87);
+   }
 }

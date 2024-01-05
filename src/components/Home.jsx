@@ -1,4 +1,5 @@
 import React from "react";
+import { MdArrowForwardIos } from "react-icons/md";
 
 const Home = () => {
    return (
@@ -8,19 +9,20 @@ const Home = () => {
                abacus 2024
             </h1>
             <p className="text-base mt-5">
-               welcome to abacus 2023 the national level it quiz for tech
+               welcome to abacus 2023 the national level IT QUIZ for tech
                savvies.The abacus event is organized by the students of BBCIT (
                Banktlal Badruka College For Information Technology )
             </p>
-            <div className="mt-5 border uppercase inline-block tracking-wider text-base rounded-md px-6 py-2 bg-[rgba(0,0,0,0.690)] shadow-sm">
+            <div className="mt-5 border uppercase cursor-pointer  tracking-wider text-base rounded-md pl-6 pr-4 py-2 bg-[rgba(0,0,0,0.690)] shadow-sm inline-flex items-center gap-2 ">
                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjisAs9CeAD9iNtqK7QdNzU7_fKla8E5NqcP1_mcqWuUAUog/viewform?usp=sf_link">
                   Register
                </a>
+               <MdArrowForwardIos size={15} />
             </div>
          </div>
          <div className="flex-1 ">
             <div className="flex justify-between items-center">
-               <div className="flex flex-col gap-2">
+               <div className="flex flex-col gap-2 flex-1">
                   <h3 className="text-2xl text-black capitalize font-semibold md:3xl">
                      venue
                   </h3>
@@ -28,12 +30,12 @@ const Home = () => {
                      badruka college auditorium
                   </span>
                </div>
-               <div className="flex flex-col gap-2">
+               <div className="flex flex-col gap-2 flex-1">
                   <h3 className="text-black text-2xl capitalize font-semibold md:3xl">
                      Date & time
                   </h3>
                   <span className="text-base mr-1 ">
-                     25 februaru , 2024,10:00 Am
+                     25 february , 2024 , 10:00 Am
                   </span>
                </div>
             </div>
@@ -41,8 +43,8 @@ const Home = () => {
                <span className="text-black capitalize font-semibold mr-1">
                   registaration fees: Rs.
                </span>
-               100/- for each team (comprising two members) register before
-               <span>25 February, 2024</span>
+               100/- for each team (comprising two members) register before 25
+               February, 2024
             </p>
             <p className="text-base mt-5 capitalize">
                <span className="text-black font-semibold mr-1">

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Glimps from "./components/Glimps";
+import Contact from "./components/Contact";
 
 const App = () => {
    return (
@@ -9,7 +9,7 @@ const App = () => {
          <main>
             <Navbar />
             <Home />
-            <Glimps />
+            <Contact />
          </main>
       </>
    );
