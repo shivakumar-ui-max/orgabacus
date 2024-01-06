@@ -35,7 +35,7 @@ const Home = () => {
                      Date & time
                   </h3>
                   <span className="text-base mr-1 ">
-                     9 february , 2024 , 10:00 Am
+                     9 february , 2024 , 10:00 AM
                   </span>
                </div>
             </div>
@@ -50,7 +50,7 @@ const Home = () => {
                <span className="text-black font-semibold mr-1">
                   spot registration
                </span>
-               on 9 february, 2024 9:00 am to 10:00 am
+               on 9 february, 2024 9:00 AM to 10:00 PM
             </p>
          </div>
       </section>
