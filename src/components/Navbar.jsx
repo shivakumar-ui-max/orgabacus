@@ -11,8 +11,8 @@ const Navbar = () => {
       });
    };
    return (
-      <nav className=" fixed inset-0 z-10">
-         <nav className=" flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  px-2 md:px-4 py-3 border-b-[1px] shadow-sm black ">
+      <nav className=" fixed top-0 left-0 right-0 z-10 ">
+         <nav className=" flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  px-3 md:px-4 py-3 border-b-[1px] shadow-sm black ">
             <div>
                <div className="logo flex items-center capitalize space-x-3">
                   <div className="flex ">

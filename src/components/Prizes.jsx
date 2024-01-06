@@ -8,7 +8,7 @@ const Prizes = () => {
          <section className=" flex flex-col">
             <div className=" container mx-auto px-4 text-white mt-16">
                <h2 className="text-center uppercase tracking-wide text-2xl text-black font-semibold">
-                  target subjets
+                  target subjects
                </h2>
                <p className="text-center uppercase text-base mt-6">
                   dbms , html , c , mobile application , java , computer
