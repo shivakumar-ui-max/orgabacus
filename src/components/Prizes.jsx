@@ -27,7 +27,7 @@ const Prizes = () => {
                <div className="w-32 h-32  flex justify-center items-center shadow-lg bg-slate-500 rounded-md">
                   <FaAward size={30} className="text-black" />
                </div>
-               <div className="w-32 h-32  flex justify-center items-center shadow-lg bg-slate-500 rounded-md">
+               <div className="w-32 h-32  flex justify-center items-center shadow-lg bg-slate-500 rounded-md overflow-hidden">
                   <img
                      src={trophy}
                      alt="prize"

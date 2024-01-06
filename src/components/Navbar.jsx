@@ -11,17 +11,23 @@ const Navbar = () => {
       });
    };
    return (
-      <nav className=" fixed inset-0">
-         <nav className=" flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  p-2 border-b-[1px] shadow-sm black ">
-            <div className="logo flex items-center capitalize space-x-3">
-               <img
-                  src={logo}
-                  alt="logo"
-                  className="w-[50px] h-[50px] rounded-full"
-               />
-               <span className="text-xs">
-                  Banktlal badruka college <br /> for Information Technology
-               </span>
+      <nav className=" fixed inset-0 z-10">
+         <nav className=" flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  px-2 md:px-4 py-3 border-b-[1px] shadow-sm black ">
+            <div>
+               <div className="logo flex items-center capitalize space-x-3">
+                  <div className="flex ">
+                     <img
+                        src={logo}
+                        alt="logo"
+                        className="w-[50px] h-[50px] rounded-full"
+                     />
+                     <span className="text-[5px] -mt-3">TM</span>
+                  </div>
+                  <span className="text-xs">
+                     Banktlal badruka college <br /> for Information Technology
+                  </span>
+               </div>
+               <span className="text-[8px]">tamasoma jyotirgamaya</span>
             </div>
             {/* hidden md:flex md:justify-between md:space-x-10 md:text-sm */}
             <ul className="  hidden md:flex md:justify-between md:space-x-10 md:text-sm ">

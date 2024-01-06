@@ -16,11 +16,11 @@ const Contact = () => {
             <div className="aboutUs flex-1 px-5">
                <h5>Bankatlal Badruka College for information Technology</h5>
                <p className="text-xs text-justify mt-3 text-slate-200 tracking-wide">
-                  "Bankatlal Badruka College for Information Technology (BBCIT),
+                  Bankatlal Badruka College for Information Technology (BBCIT),
                   named in honour of the founder, was established in 1991 to
                   impart instruction of excellence in IT. The college has been
                   able to carve a niche for itself in the academic world in a
-                  short period due to hard work and the dedication of staff."
+                  short period due to hard work and the dedication of staff.
                </p>
             </div>
             <div className="flex-1 px-5">
@@ -34,7 +34,7 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Madhavi Latha
+                        Ms.D.T Madhavi Latha
                      </p>
                      <p>9550243050</p>
                   </div>
