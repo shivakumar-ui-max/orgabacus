@@ -11,13 +11,15 @@ const Navbar = () => {
    };
    return (
       <nav className=" container mx-auto flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  p-2 fixed top-0 le">
-         <div className="logo flex items-center space-x-3">
+         <div className="logo flex items-center capitalize space-x-3">
             <img
                src={logo}
                alt="logo"
                className="w-[50px] h-[50px] rounded-full"
             />
-            <span>bbcit</span>
+            <span className="text-xs">
+               Banktlal badruka college <br /> for Information Technology
+            </span>
          </div>
          {/* hidden md:flex md:justify-between md:space-x-10 md:text-sm */}
          <ul className="  hidden md:flex md:justify-between md:space-x-10 md:text-sm ">

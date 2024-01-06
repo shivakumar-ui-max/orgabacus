@@ -6,10 +6,10 @@ const Home = () => {
       <section className="container mx-auto mt-32 px-4 text-slate-300 flex flex-col flex-wrap gap-10  md:flex-row md:mt-52 ">
          <div className="flex-1">
             <h1 className="text-4xl text-black uppercase font-bold md:text-5xl">
-               abacus 2024
+               abacus ! 2024
             </h1>
-            <p className="text-base mt-5">
-               welcome to abacus 2023 the national level IT QUIZ for tech
+            <p className="text-base mt-5 capitalize">
+               welcome to abacus 2024 the national level IT QUIZ for tech
                savvies.The abacus event is organized by the students of BBCIT (
                Banktlal Badruka College For Information Technology )
             </p>
@@ -35,7 +35,7 @@ const Home = () => {
                      Date & time
                   </h3>
                   <span className="text-base mr-1 ">
-                     25 february , 2024 , 10:00 Am
+                     9 february , 2024 , 10:00 Am
                   </span>
                </div>
             </div>
@@ -43,14 +43,14 @@ const Home = () => {
                <span className="text-black capitalize font-semibold mr-1">
                   registaration fees: Rs.
                </span>
-               100/- for each team (comprising two members) register before 25
+               100/- for each team (comprising two members) register before 9
                February, 2024
             </p>
             <p className="text-base mt-5 capitalize">
                <span className="text-black font-semibold mr-1">
                   spot registration
                </span>
-               on 25 february, 2024 9:00am to 10:00 am
+               on 9 february, 2024 9:00 am to 10:00 am
             </p>
          </div>
       </section>

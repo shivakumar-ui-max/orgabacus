@@ -35,45 +35,9 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Mr.sunny
+                        Madhavi Latha
                      </p>
-                     <p>123456789</p>
-                  </div>
-
-                  {/* bunny */}
-                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
-                     <p className="flex items-center gap-2">
-                        <FaArrowRightLong
-                           size={12}
-                           className="text-orange-400"
-                        />
-                        Mr.bunny
-                     </p>
-                     <p>123456789</p>
-                  </div>
-
-                  {/* chinny */}
-                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
-                     <p className="flex items-center gap-2">
-                        <FaArrowRightLong
-                           size={12}
-                           className="text-orange-400"
-                        />
-                        Mr.chinny
-                     </p>
-                     <p>123456789</p>
-                  </div>
-
-                  {/* pinny */}
-                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
-                     <p className="flex items-center gap-2">
-                        <FaArrowRightLong
-                           size={12}
-                           className="text-orange-400"
-                        />
-                        Mr.pinny
-                     </p>
-                     <p>123456789</p>
+                     <p>9550243050</p>
                   </div>
                </div>
             </div>
@@ -88,9 +52,9 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Mr.sunny
+                        J.Arthi
                      </p>
-                     <p>123456789</p>
+                     <p>9640388418</p>
                   </div>
 
                   {/* bunny */}
@@ -100,9 +64,9 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Mr.bunny
+                        Thrushsar Jain
                      </p>
-                     <p>123456789</p>
+                     <p>9032812425</p>
                   </div>
 
                   {/* chinny */}
@@ -112,9 +76,9 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Mr.chinny
+                        CH.Sneha
                      </p>
-                     <p>123456789</p>
+                     <p>7702696047</p>
                   </div>
 
                   {/* pinny */}
@@ -124,9 +88,53 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Mr.pinny
+                        M.Rajeev kumar
                      </p>
-                     <p>123456789</p>
+                     <p>7801078123</p>
+                  </div>
+
+                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
+                     <p className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        Shamstrabrez
+                     </p>
+                     <p>8886854597</p>
+                  </div>
+
+                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
+                     <p className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        D.Navaneeth guptha
+                     </p>
+                     <p>7995329174</p>
+                  </div>
+
+                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
+                     <p className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        Vasu kumar
+                     </p>
+                     <p>6281163105</p>
+                  </div>
+
+                  <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
+                     <p className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        Purnachand
+                     </p>
+                     <p>7386565721</p>
                   </div>
                </div>
             </div>
@@ -136,20 +144,20 @@ const Contact = () => {
          <div className="follow text-center pt-5  mt-6">
             <div>
                <h6 className="text-base tracking-wide">follow us</h6>
-               <ul className="flex justify-center items-center gap-10 my-5">
-                  <li>
+               <div className="flex justify-center items-center gap-10 my-5">
+                  <a href="">
                      <FaFacebookF className="text-[#1877F2]" />
-                  </li>
-                  <li>
+                  </a>
+                  <a href="https://www.instagram.com/badruka_bbcit?igsh=MTdtaXVsanZsemx6OA==">
                      <FaInstagram className="text-[#ff6464]" />
-                  </li>
-                  <li>
+                  </a>
+                  <a href="badrukaabacus@gmail.com">
                      <BiLogoGmail className="text-[#c71610]" />
-                  </li>
-                  <li>
+                  </a>
+                  <a href="">
                      <FaTwitter className="text-[#1DA1F2]" />
-                  </li>
-               </ul>
+                  </a>
+               </div>
             </div>
 
             <em className="text-xs tracking-widest text-slate-300">
