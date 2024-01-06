@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
    return (
@@ -13,15 +14,13 @@ const Contact = () => {
          </h4>
          <div className="container mx-auto flex justify-between flex-col gap-6 md:flex-row pt-14">
             <div className="aboutUs flex-1 px-5">
-               <h5>About Us</h5>
+               <h5>Bankatlal Badruka College for information Technology</h5>
                <p className="text-xs text-justify mt-3 text-slate-200 tracking-wide">
-                  "Sri Bankatlal Badruka founded Seth Ghasiram Gopikishan
-                  Badruka Educational society in 1950, with establishment of
-                  Badruka College of Commerce and Arts (BBCA). Over the last six
-                  decades, the Society has grown from strength to strength.
-                  Roday, it has 8 instituations of higher learning and a hostel.
-                  Over 50,000 students have passed through the portals of the
-                  Society, occuping significant positions in India and abroad."
+                  "Bankatlal Badruka College for Information Technology (BBCIT),
+                  named in honour of the founder, was established in 1991 to
+                  impart instruction of excellence in IT. The college has been
+                  able to carve a niche for itself in the academic world in a
+                  short period due to hard work and the dedication of staff."
                </p>
             </div>
             <div className="flex-1 px-5">
@@ -145,7 +144,7 @@ const Contact = () => {
             <div>
                <h6 className="text-base tracking-wide">follow us</h6>
                <div className="flex justify-center items-center gap-10 my-5">
-                  <a href="">
+                  <a href="https://www.facebook.com/profile.php?id=100092649845440&mibextid=kFxxJD">
                      <FaFacebookF className="text-[#1877F2]" />
                   </a>
                   <a href="https://www.instagram.com/badruka_bbcit?igsh=MTdtaXVsanZsemx6OA==">
@@ -154,8 +153,8 @@ const Contact = () => {
                   <a href="badrukaabacus@gmail.com">
                      <BiLogoGmail className="text-[#c71610]" />
                   </a>
-                  <a href="">
-                     <FaTwitter className="text-[#1DA1F2]" />
+                  <a href="https://youtube.com/@BBCIT-Hyderabad?si=415m9t2uBv8mC71J">
+                     <FaYoutube className="text-[#CD201F]" />
                   </a>
                </div>
             </div>
