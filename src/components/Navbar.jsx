@@ -27,7 +27,7 @@ const Navbar = () => {
                      Banktlal badruka college <br /> for Information Technology
                   </span>
                </div>
-               <span className="text-[8px]">tamasoma jyotirgamaya</span>
+               <span className="text-[5px]">tamaso ma jyotirgamaya</span>
             </div>
             {/* hidden md:flex md:justify-between md:space-x-10 md:text-sm */}
             <ul className="  hidden md:flex md:justify-between md:space-x-10 md:text-sm ">

@@ -17,9 +17,9 @@ const Prizes = () => {
                <h2 className="text-center uppercase tracking-wide text-2xl text-black font-semibold mt-8">
                   prizes
                </h2>
-               <p className="text-center text-base mt-6">
-                  winning team gets laxminivas badruka rolling trophy , master
-                  minds-2024 and exciting prizes. three finalists and four
+               <p className="text-center text-base mt-6 ">
+                  Winning team gets laxminivas badruka rolling trophy , master
+                  minds-2024 and exciting prizes. Three finalists and four
                   runners-up of semifinal will also get exciting prizes.
                </p>
             </div>
