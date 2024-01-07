@@ -32,9 +32,18 @@ const Navbar = () => {
             </div>
             {/* hidden md:flex md:justify-between md:space-x-10 md:text-sm */}
             <ul className="  hidden md:flex md:justify-between md:space-x-10 md:text-sm ">
-               <li>gilmps</li>
-               <li>bbcit-info</li>
-               <li>contact</li>
+               <li>
+                  <a href="#home"> home</a>
+               </li>
+               <li>
+                  <a href="#glimps"> gilmps</a>
+               </li>
+               <li>
+                  <a href="#info">bbcit-info</a>
+               </li>
+               <li>
+                  <a href="#contact">contact</a>
+               </li>
             </ul>
             <div onClick={handleClick} className="block md:hidden">
                {nav ? (
@@ -51,17 +60,41 @@ const Navbar = () => {
                }
             >
                <ul className="pt-24 ml-14 space-y-7 text-sm">
-                  <li className="flex items-center gap-2">
-                     <FaArrowRightLong size={12} className="text-orange-400" />
-                     gilmps
+                  <li>
+                     <a href="#home" className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        home
+                     </a>
                   </li>
-                  <li className="flex items-center gap-2">
-                     <FaArrowRightLong size={12} className="text-orange-400" />
-                     bbcit-info
+                  <li>
+                     <a href="#glimps" className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        gilmps
+                     </a>
                   </li>
-                  <li className="flex items-center gap-2">
-                     <FaArrowRightLong size={12} className="text-orange-400" />
-                     contact
+                  <li>
+                     <a href="#info" className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        bbcit-info
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#contact" className="flex items-center gap-2">
+                        <FaArrowRightLong
+                           size={12}
+                           className="text-orange-400"
+                        />
+                        contact
+                     </a>
                   </li>
                   <li className="mt-5 border uppercase cursor-pointer  tracking-wider text-base bg-[#0e1317] rounded-md pl-6 pr-4 py-2  shadow-sm inline-flex items-center gap-2 ">
                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjisAs9CeAD9iNtqK7QdNzU7_fKla8E5NqcP1_mcqWuUAUog/viewform?usp=sf_link">

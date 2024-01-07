@@ -7,7 +7,10 @@ import { FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
    return (
-      <section className=" w-full  black text-white mt-8 tracking-wide py-4">
+      <section
+         className=" w-full  black text-white mt-8 tracking-wide py-4"
+         id="contact"
+      >
          <h4 className="uppercase text-center mt-12 font-bold text-xl gradient">
             contact us
          </h4>

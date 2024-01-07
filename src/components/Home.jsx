@@ -3,7 +3,10 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const Home = () => {
    return (
-      <section className=" container mx-auto mt-32 px-4 text-slate-300 flex flex-col flex-wrap gap-10  md:flex-row md:mt-52 ">
+      <section
+         className=" container mx-auto mt-32 px-4 text-slate-300 flex flex-col flex-wrap gap-10  md:flex-row md:mt-52 "
+         id="home"
+      >
          <div className="flex-1">
             <h1 className="text-4xl textBlack uppercase font-bold md:text-5xl">
                abacus 2024
