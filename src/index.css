@@ -24,6 +24,13 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
    }
+   .bg {
+      background: linear-gradient(
+         90deg,
+         rgba(107, 81, 177, 1) 10%,
+         rgba(29, 35, 133, 1) 90%
+      );
+   }
    .border-gradient {
       border-style: solid;
       border-width: 2px;
@@ -34,6 +41,12 @@
       );
    }
    .black {
-      background-color: rgba(0, 0, 0, 0.87);
+      background-color: #090c0f;
+   }
+   .textBlack {
+      color: #0e1317;
+   }
+   .gold {
+      color: #b68b57;
    }
 }
