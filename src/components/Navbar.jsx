@@ -12,7 +12,7 @@ const Navbar = () => {
       });
    };
    return (
-      <nav className=" fixed top-0 left-0 right-0 z-10 ">
+      <nav className=" fixed top-0 left-0 right-0 z-10  ">
          <nav className=" flex justify-between items-center uppercase  text-xl tracking-wide text-slate-200  px-3 md:px-4 py-3 border-b-[1px] shadow-sm black ">
             <div>
                <div className="logo flex items-center capitalize space-x-3">
@@ -47,9 +47,9 @@ const Navbar = () => {
             </ul>
             <div onClick={handleClick} className="block md:hidden">
                {nav ? (
-                  <AiOutlineClose size={20} />
+                  <AiOutlineClose size={20} className="cursor-pointer" />
                ) : (
-                  <AiOutlineMenu size={20} />
+                  <AiOutlineMenu size={20} className="cursor-pointer" />
                )}
             </div>
             <div
@@ -60,7 +60,7 @@ const Navbar = () => {
                }
             >
                <ul className="pt-24 ml-14 space-y-7 text-sm">
-                  <li>
+                  <li onClick={handleClick}>
                      <a href="#home" className="flex items-center gap-2">
                         <FaArrowRightLong
                            size={12}
@@ -69,7 +69,7 @@ const Navbar = () => {
                         home
                      </a>
                   </li>
-                  <li>
+                  <li onClick={handleClick}>
                      <a href="#glimps" className="flex items-center gap-2">
                         <FaArrowRightLong
                            size={12}
@@ -78,7 +78,7 @@ const Navbar = () => {
                         gilmps
                      </a>
                   </li>
-                  <li>
+                  <li onClick={handleClick}>
                      <a href="#info" className="flex items-center gap-2">
                         <FaArrowRightLong
                            size={12}
@@ -87,7 +87,7 @@ const Navbar = () => {
                         bbcit-info
                      </a>
                   </li>
-                  <li>
+                  <li onClick={handleClick}>
                      <a href="#contact" className="flex items-center gap-2">
                         <FaArrowRightLong
                            size={12}
