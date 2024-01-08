@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <p className="text-base  mt-5">
                <span className="textBlack capitalize font-semibold mr-1">
-                  registaration fees: Rs.
+                  registration fees: Rs.
                </span>
                100/- for each team (comprising two members) register before 9
                February, 2024

@@ -2,7 +2,6 @@ import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa";
 
 const Contact = () => {
@@ -53,9 +52,9 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        J.Arthi
+                        Shamstrabrez
                      </p>
-                     <p>9640388418</p>
+                     <p>8886854597</p>
                   </div>
 
                   {/* bunny */}
@@ -100,9 +99,9 @@ const Contact = () => {
                            size={12}
                            className="text-orange-400"
                         />
-                        Shamstrabrez
+                        J.Arthi
                      </p>
-                     <p>8886854597</p>
+                     <p>9640388418</p>
                   </div>
 
                   <div className="flex justify-between items-center text-slate-200 text-sm tracking-wide">
@@ -152,9 +151,7 @@ const Contact = () => {
                   <a href="https://www.instagram.com/badruka_bbcit?igsh=MTdtaXVsanZsemx6OA==">
                      <FaInstagram className="text-[#ff6464]" />
                   </a>
-                  <a href="badrukaabacus@gmail.com">
-                     <BiLogoGmail className="text-[#c71610]" />
-                  </a>
+
                   <a href="https://youtube.com/@BBCIT-Hyderabad?si=415m9t2uBv8mC71J">
                      <FaYoutube className="text-[#CD201F]" />
                   </a>
