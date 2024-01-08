@@ -97,7 +97,7 @@ const Navbar = () => {
                      </a>
                   </li>
                   <li className="mt-5 border uppercase cursor-pointer  tracking-wider text-base bg-[#0e1317] rounded-md pl-6 pr-4 py-2  shadow-sm inline-flex items-center gap-2 ">
-                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjisAs9CeAD9iNtqK7QdNzU7_fKla8E5NqcP1_mcqWuUAUog/viewform?usp=sf_link">
+                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScThb3RiWbTyPNuUoqk889uPzEewnM8fA5jcCSLvNJDYUUKmg/viewform?usp=sf_linkk">
                         Register
                      </a>
                      <MdArrowForwardIos size={15} />
